@@ -1,4 +1,4 @@
-function Books( slots){
+function Book( slots){
   this.isbn=slots.isbn;
   this.title=slots.title;
   this.year=slots.year;
@@ -69,7 +69,7 @@ Book.destroy = function(isbn){
     delete Book.instances[isbn];
   }
   else{
-    console.log("There is no book with " + isbn " in the database.")
+    console.log("There is no book with " + isbn + " in the database.");
   }
 };
 

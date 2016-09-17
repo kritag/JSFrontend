@@ -1,1 +1,1 @@
-var pl = { model:{}, view:(), ctrl:() };
+var pl = { model:{}, view:{}, ctrl:{} };
